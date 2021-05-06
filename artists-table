@@ -1,0 +1,12 @@
+INSERT INTO artist
+(name)
+VALUES
+('Eminem'), ('Disturbed'), ('Childish Gambino');
+
+SELECT * FROM artist
+ORDER BY name DESC
+LIMIT 10;
+
+SELECT * FROM artist
+ORDER BY name ASC
+LIMIT 5;

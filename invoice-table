@@ -1,0 +1,18 @@
+SELECT count(invoice_id) FROM invoice;
+
+SELECT max(total) FROM invoice;
+
+SELECT min(total) FROM invoice;
+
+SELECT * FROM invoice
+WHERE total > 5;
+
+SELECT count(invoice_id) FROM invoice
+WHERE total < 5;
+
+SELECT count(invoice_id) FROM invoice
+WHERE billing_state IN ('CA', 'TX', 'AZ');
+
+SELECT avg(total) from invoice;
+
+SELECT sum(total) FROM invoice;
